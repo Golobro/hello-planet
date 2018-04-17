@@ -5,10 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simple View Count</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+        .wrap{
+            margin: 0 auto;
+            background: #9191f3;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        .wrap{
+            width: 150px;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px; 
+            border: 10px solid #353870;
+        }
+
+        button{
+            color: #000;
+            border: none;
+            padding: 20px;
+            font-size: 16px;
+            border-bottom-right-radius: 50px;
+        }
+
+        p{
+            background: #43a34b;
+            position: relative;
+            padding: 10px;
+            top: 16px;
+        }
+
+        span{
+            font-size: 2rem;
+            position: relative;
+            top: 16px;
+        }
+    </style>
 </head>
 <body>
+    <!-- Simple View Count -->
     <div class="wrap">
         <span id="count">0</span>
+        <p>Views</p>
         <button id="btn">Click Me</button>
     </div>
     
